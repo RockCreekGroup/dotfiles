@@ -2,7 +2,7 @@
     path = .gitconfig.custom
 
 [core]
-  excludesfile = ~/.gitignore
+  excludesfile = $HOME/.gitignore
   editor = vim
   whitespace = trailing-space,space-before-tab
 
