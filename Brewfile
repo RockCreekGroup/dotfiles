@@ -29,3 +29,6 @@ cask 'gitup'
 cask 'sourcetree'
 cask 'textmate'
 cask 'sublime-text'
+
+# Communication
+cask 'slack'
