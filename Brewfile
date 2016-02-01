@@ -17,6 +17,10 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 
+# VM management
+cask 'virtualbox'
+cask 'otto'
+
 # GUI
 cask 'gitup'
 cask 'sourcetree'
