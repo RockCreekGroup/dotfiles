@@ -21,6 +21,9 @@ cask 'quicklook-csv'
 cask 'virtualbox'
 cask 'otto'
 
+# Database
+cask 'postgres'
+
 # GUI
 cask 'gitup'
 cask 'sourcetree'
