@@ -23,6 +23,7 @@ cask 'otto'
 
 # Database
 cask 'postgres'
+cask 'pgadmin3'
 
 # GUI
 cask 'gitup'
