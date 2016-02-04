@@ -6,8 +6,7 @@ for module in `cat ~/.modules`; do
     PATH=$PATH:$HOME/dotfiles/$module/bin
 done
 
-
-source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
