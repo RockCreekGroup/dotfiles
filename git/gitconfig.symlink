@@ -5,6 +5,7 @@
   excludesfile = $HOME/.gitignore
   editor = vim
   whitespace = trailing-space,space-before-tab
+  pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
 
 [init]
   templatedir = ~/.git_template
@@ -13,12 +14,27 @@
   whitespace = fix
 
 [color]
-  ui = true ;doesnt work for some reason ...
+  ui = always
 
   interactive = true
   status = true
   branch = true
   diff = true
+
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
+
+[color "diff"]
+  commit = green
+  meta = yellow
+  frag = cyan
+  old = red
+  new = green
+  whitespace = red reverse
+
 [alias]
   st = status
   ci = commit
