@@ -6,13 +6,13 @@ It assumes you have homebrew installed (see http://brew.sh)
 
 Install homebrew-bundle by running `brew tap Homebrew/bundle`
 
-Be sure to create a file called `.gitconfig.custom` with your special git configuration.
-
-For example, here's mine:
+Be sure to create a file called `.gitconfig` in your $HOME directory and include the configuration from this project by adding the following:
 
 ```
+[include]
+    path = .gitconfig.inherited
 [user]
-  name = 'Jim Gay'
+  name = 'Your Name'
   email = email@example.com
 ```
 
