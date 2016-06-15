@@ -39,4 +39,5 @@ cask 'textmate'
 cask 'sublime-text3'
 
 # Communication
+cask 'screenhero'
 cask 'slack'
