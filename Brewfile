@@ -4,16 +4,20 @@ tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
+brew 'git'
 brew 'ag'
+brew 'libyaml'
+brew 'gmp'
 brew 'ruby-install'
 brew 'chruby'
+brew 'yarn'
 brew 'nvm'
 
 brew 'python'
 
 brew 'graphviz'
 
-brew 'heroku-toolbelt'
+brew 'libgit2'
 
 # Java
 cask 'java'
@@ -24,20 +28,25 @@ cask 'quicklook-json'
 cask 'quicklook-csv'
 
 # VM management
+cask 'docker'
 cask 'virtualbox'
-cask 'otto'
+
+# Code
+cask 'sublime-text'
+cask 'visual-studio-code'
 
 # Database
 cask 'postgres'
-cask 'pgadmin3'
+cask 'pgadmin4'
 
 # GUI
+cask 'alfred'
 cask 'shiftit'
 cask 'gitup'
 cask 'sourcetree'
-cask 'textmate'
-cask 'sublime-text3'
+cask 'cyberduck'
 
 # Communication
 cask 'screenhero'
 cask 'slack'
+cask 'skype'
